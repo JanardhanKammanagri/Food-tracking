@@ -9,7 +9,7 @@ class Food(models.Model):
     fats=models.FloatField()
 
     def __str__(self):
-        return self.name
+        return s elf.name
 
 class Consume(models.Model):
     food_consumed=models.ForeignKey(Food,on_delete=models.CASCADE)
